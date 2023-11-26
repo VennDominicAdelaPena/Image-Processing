@@ -230,9 +230,9 @@
             // 
             // button9
             // 
-            button9.Location = new Point(377, 667);
+            button9.Location = new Point(368, 668);
             button9.Name = "button9";
-            button9.Size = new Size(161, 33);
+            button9.Size = new Size(168, 33);
             button9.TabIndex = 12;
             button9.Text = "Turn on Camera";
             button9.UseVisualStyleBackColor = true;
@@ -246,16 +246,16 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Copy", "GreyScale", "Invert", "Sepia", "Subtraction" });
-            comboBox1.Location = new Point(377, 629);
+            comboBox1.Location = new Point(368, 629);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(183, 33);
             comboBox1.TabIndex = 13;
             // 
             // button10
             // 
-            button10.Location = new Point(377, 706);
+            button10.Location = new Point(368, 707);
             button10.Name = "button10";
-            button10.Size = new Size(161, 33);
+            button10.Size = new Size(168, 33);
             button10.TabIndex = 14;
             button10.Text = "Turn Off Camera";
             button10.UseVisualStyleBackColor = true;
@@ -264,29 +264,30 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(86, 585);
+            label1.Location = new Point(81, 590);
             label1.Name = "label1";
             label1.Size = new Size(149, 25);
             label1.TabIndex = 15;
-            label1.Text = "Buttons for DPI 1";
+            label1.Text = "Buttons for DIP 1";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(389, 585);
+            label2.Location = new Point(387, 590);
             label2.Name = "label2";
             label2.Size = new Size(149, 25);
             label2.TabIndex = 16;
-            label2.Text = "Buttons for DPI 2";
+            label2.Text = "Buttons for DIP 2";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(584, 632);
+            label3.Location = new Point(577, 632);
             label3.Name = "label3";
-            label3.Size = new Size(137, 25);
+            label3.Size = new Size(151, 25);
             label3.TabIndex = 17;
-            label3.Text = "Choose Process";
+            label3.Text = "Choose a Process";
             // 
             // Form1
             // 
